@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sorts Mill Goudy", serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwwUVUjgF156IBOToxo36Se7pzy6rEkTJWKA&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.inputDesign {
+  border-radius: 999999px;
+}
+
+.loginImage {
+  border-top-left-radius: 1%;
+  border-bottom-left-radius: 1%;
+  min-height: 85vh;
+  min-width: 100px;
+  object-fit: cover;
+}
+
+.borderCont {
+  box-shadow: -1px 5px 18px 0px;
+}
+
+.nav-link {
+  margin-right: 40px;
+  color: black;
+}
+
+.nav-link:hover {
+  color: #65b4ef !important;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  box-shadow: 1px 1px 4px 0px;
+  z-index: 1 !important;
+}
+
+.contact-button a {
+  border-bottom: 4px solid rgb(0, 0, 0);
+  padding: 8px 30px;
+  font-size: 15px;
+  width: 21%;
+  color: rgb(0, 0, 0) !important;
+  font-weight: bold;
+  border-radius: 999px;
+  background-color: rgb(255, 255, 255);
+}
+
+.contact-button a:hover {
+  color: #65b4ef !important;
+  border-bottom: 4px solid #65b4ef !important;
+}
+
+.content-left a {
+  text-decoration: none;
+}
+
+.shadow-text {
+  text-shadow: 1px 1px 4px #ffffff;
+}
+
+.shadow-dark {
+  text-shadow: 1px 1px 4px #000000;
+}
+
+.prof-img {
+  box-shadow: 1px 1px 4px #000000;
+}
+
+.contact {
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+}
+
+.contact p {
+  margin: 0;
+}
+
+.contactme {
+  box-shadow: #ffffff 1px 1px 4px 1px;
+}
+
+#Contact,
+#Project,
+#Service {
+  min-height: 100vh;
+}
+
+.imgproj {
+  width: 400px !important;
+  height: 200px !important;
+}
+
+.contactbord {
+  box-shadow: #ffffff 1px 1px 1px 1px;
+}
+
+.glowimg {
+  background: rgb(255, 215, 254) !important;
+  box-shadow: 1px 2px 10px rgb(254, 163, 249) !important;
+}
