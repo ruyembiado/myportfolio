@@ -121,12 +121,6 @@ body {
   box-shadow: #ffffff 1px 1px 4px 1px;
 }
 
-#Contact,
-#Project,
-#Service {
-  min-height: 100vh;
-}
-
 .imgproj {
   width: 400px !important;
   height: 200px !important;
